@@ -1,2 +1,2 @@
-# My Web Portfolio
-My personal web portfolio with y most important projects.
+# My Portfolio
+My personal web portfolio with my most important projects.
