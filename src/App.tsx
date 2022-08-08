@@ -1,10 +1,13 @@
 import React from 'react';
 import './App.css';
+import NavigationBar from './components/navbar';
 
-function App() {
+const App: React.FC = () => {
   return (
     <div className="App">
-
+      <nav>
+        <NavigationBar/>
+      </nav> 
     </div>
   );
 }
