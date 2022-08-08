@@ -1,7 +1,31 @@
+.home {
+    background-image: url("/public/images/pexels-luis-gomes-546819.jpg");
+    background-color: #cccccc;
+}
+
 #navbar {
+    background-color: rgba(2, 2, 87, 0.882);
+}
+
+#aboutMe {
     background-color: rgba(2, 2, 87, 0.882);
 }
 
 #navName {
     color: rgba(255, 255, 255, 0.86);
+}
+
+#myImage {
+    height: 350px;
+    width: 350px;
+}
+
+#homeContainer {
+    padding-top: 50px;
+}
+
+#myName {
+    color: rgba(255, 255, 255, 0.86);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
 }
