@@ -70,3 +70,14 @@ html {
 #cardBottom {
     margin-top: 5px;
 }
+
+#contactInfo {
+    height: 100vh;
+    background-color: rgba(2, 2, 87, 0.882);
+}
+
+#headerText {
+    color: rgba(255, 255, 255, 0.86);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
