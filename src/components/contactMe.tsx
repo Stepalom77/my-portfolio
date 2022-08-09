@@ -5,6 +5,8 @@ import Col from 'react-bootstrap/Col';
 import Card from 'react-bootstrap/Card';
 import Image from 'react-bootstrap/Image';
 import Button from 'react-bootstrap/Button';
+import { Link } from "react-router-dom";
+
 
 const Contact: React.FC = () => {
     return(
@@ -39,7 +41,10 @@ const Contact: React.FC = () => {
         </Card.Link>
         <br/>
         <br/>
-        <Button href="#" variant="outline-primary">Download my CV</Button>
+        <Link to="/files/Curriculum_vitae_Stephano_Palomino.docx" target="_blank" download>
+            <Button variant="outline-primary">Download my CV</Button>
+            </Link>
+        
       </Card.Body>
     </Card>
             </Row>

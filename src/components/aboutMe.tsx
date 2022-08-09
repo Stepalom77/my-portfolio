@@ -10,7 +10,7 @@ const About: React.FC = () => {
       <Row className="justify-content-md-center">
         <Col xs lg="2"></Col>
         <Col xs={6}>
-          <p id='aboutName'>Hi!</p>
+          <p className='hi' id='aboutName'>Hi!</p>
           <p id='aboutName'>My name is Stephano Palomino</p>
           </Col>
         <Col xs lg="2"></Col>

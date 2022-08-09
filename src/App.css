@@ -14,7 +14,7 @@ html {
 
 #projects {
     background-image: url("/public/images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg");
-    height: 100vh;
+    height: 140vh;
 }
 
 #navName {
@@ -56,7 +56,8 @@ html {
 #projectTitle {
     color: rgba(255, 255, 255, 0.86);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: xx-large;
+    font-size: x-large;
+    padding-top: 100px;
 }
 
 #buttonRight {
@@ -80,4 +81,9 @@ html {
     color: rgba(255, 255, 255, 0.86);
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
+    padding-top: 100px;
+}
+
+.hi {
+    padding-top: 100px;
 }
