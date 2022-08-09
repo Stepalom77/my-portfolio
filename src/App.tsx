@@ -9,7 +9,7 @@ const App: React.FC = () => {
     <>
     <div className="App">
       <nav>
-        <NavigationBar/>
+      <NavigationBar/>
       </nav>
         <HomeApp/>
         <About/>

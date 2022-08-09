@@ -5,7 +5,7 @@ import Navbar from 'react-bootstrap/Navbar';
 const NavigationBar: React.FC = () => {
   return (
     <>
-      <Navbar id='navbar' >
+      <Navbar fixed='top' id='navbar' >
         <Container>
           <Navbar.Brand id='navName' href="#home">Home</Navbar.Brand>
           <Nav className="me-auto">

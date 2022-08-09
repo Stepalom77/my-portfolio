@@ -2,29 +2,31 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Image from 'react-bootstrap/Image';
 
 const About: React.FC = () => {
     return (
-        <div className='aboutMe' id='container'>
-            <Container>
+            <Container className='aboutMe' fluid="true">
       <Row className="justify-content-md-center">
-        <Col xs lg="2">
-          1 of 3
-        </Col>
-        <Col md="auto">Variable width content</Col>
-        <Col xs lg="2">
-          3 of 3
-        </Col>
+        <Col xs lg="2"></Col>
+        <Col xs={6}>
+          <p id='aboutName'>Hi!</p>
+          <p id='aboutName'>My name is Stephano Palomino</p>
+          </Col>
+        <Col xs lg="2"></Col>
       </Row>
-      <Row>
-        <Col>1 of 3</Col>
-        <Col md="auto">Variable width content</Col>
-        <Col xs lg="2">
-          3 of 3
+      <Row className="justify-content-md-around">
+        <Col xs={5}><p id='aboutText'>I am a Lawyer, Legaltech entrepreneur and a Backend Developer with experience in developing legaltech products and building backend infrastructure.
+          I love working on, investigating and developing solutions to make legal services much more human centric and more efficient.
+          I have been able to adapt and learn new skills, even those that were out of my comfort zone, so I could get better as a Legaltech Entrepreneur,
+          even as far as to go from been a Lawyer to learning how to code and becoming a Backend Developer. I love learning new programming languages, frameworks and tools, and 
+          working on backend and cloud infrastructures. I also enjoy discussing new startups ideas and ways to solve problems.
+           </p></Col>
+        <Col xs={4}>
+        <Image id='myImage' src="/images/IMG_5344.jpg" alt="AnotherMe" />
         </Col>
       </Row>
     </Container>
-        </div>
     )
 }
 export default About;
