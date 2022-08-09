@@ -3,6 +3,7 @@ import './App.css';
 import NavigationBar from './components/navbar';
 import HomeApp from './components/home';
 import About from './components/aboutMe';
+import Projects from './components/projects';
 
 const App: React.FC = () => {
   return (
@@ -13,7 +14,7 @@ const App: React.FC = () => {
       </nav>
         <HomeApp/>
         <About/>
-
+        <Projects/>
     </div>
     </>
   );

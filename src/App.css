@@ -12,6 +12,11 @@ html {
     height: 100vh;
 }
 
+#projects {
+    background-image: url("/public/images/florian-olivo-4hbJ-eymZ1o-unsplash.jpg");
+    height: 100vh;
+}
+
 #navName {
     color: rgba(255, 255, 255, 0.86);
 }
@@ -46,4 +51,22 @@ html {
     color: rgba(255, 255, 255, 0.86);
     font-family: Arial, Helvetica, sans-serif;
     font-size: xx-large;
+}
+
+#projectTitle {
+    color: rgba(255, 255, 255, 0.86);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+}
+
+#buttonRight {
+    margin-left: 20px;
+}
+
+#projectText {
+    font-size: small;
+}
+
+#cardBottom {
+    margin-top: 5px;
 }
