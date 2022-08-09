@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import NavigationBar from './components/navbar';
 import HomeApp from './components/home';
+import About from './components/aboutMe';
 
 const App: React.FC = () => {
   return (
@@ -9,10 +10,10 @@ const App: React.FC = () => {
     <div className="App">
       <nav>
         <NavigationBar/>
-      </nav> 
-      <div>
+      </nav>
         <HomeApp/>
-      </div>
+        <About/>
+
     </div>
     </>
   );

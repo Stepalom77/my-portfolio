@@ -7,8 +7,8 @@ import Col from 'react-bootstrap/Col';
 
 const HomeApp:  React.FC = () => {
     return(
-        <div className="home">
-            <Container id='homeContainer'>
+        <div className="home" id='container'>
+            <Container  id='homeContainer'>
       <Row className="justify-content-md-center">
         <Col xs lg="2"></Col>
         <Col md="auto"> <Image id='myImage' roundedCircle={true} src="/images/yo.jpg" alt="Me" /></Col>
