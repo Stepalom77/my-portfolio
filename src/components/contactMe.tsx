@@ -28,13 +28,13 @@ const Contact: React.FC = () => {
             Mobile: (+51)980159005
         </Card.Text>
         <Card.Subtitle className="mb-2 text-muted">Social media</Card.Subtitle>
-        <Card.Link href="https://github.com/Stepalom77">
+        <Card.Link href="https://github.com/Stepalom77" target="_blank">
              <Image src='/images/317712_code repository_github_repository_resource_icon.png' alt='github'/> 
              </Card.Link>
-        <Card.Link href="https://www.instagram.com/stephanopalominomadueno/">
+        <Card.Link href="https://www.instagram.com/stephanopalominomadueno/" target="_blank">
         <Image src='/images/5335781_camera_instagram_social media_instagram logo_icon.png' alt='instagram'/>
         </Card.Link>
-        <Card.Link href='https://www.linkedin.com/in/stephanopalomino/'>
+        <Card.Link href='https://www.linkedin.com/in/stephanopalomino/' target="_blank">
         <Image src='/images/5305157_connection_linkedin_network_linkedin logo_icon.png' alt='linkedin'/>
         </Card.Link>
         <br/>

@@ -26,8 +26,8 @@ const Projects: React.FC = () => {
         <Card.Text id='projectText'>
             All the tools I used: Javascript/NodeJS, Express, Sequelize, Postgres, Docker, Heroku, Heroku Postgres and JWT.
         </Card.Text>
-        <Button href="https://github.com/Stepalom77/IMDB-Clone-API" variant="outline-primary">Github repository</Button>
-        <Button id='buttonRight' href="https://ste-imdb-clone.herokuapp.com/" variant="outline-primary">Live Demo</Button>
+        <Button href="https://github.com/Stepalom77/IMDB-Clone-API" target="_blank" variant="outline-primary">Github repository</Button>
+        <Button id='buttonRight' href="https://ste-imdb-clone.herokuapp.com/" target="_blank" variant="outline-primary">Live Demo</Button>
       </Card.Body>
     </Card>
             </Col>
@@ -43,8 +43,8 @@ const Projects: React.FC = () => {
         <Card.Text id='projectText'>
             All the tools I used: Javascript/NodeJS, Express, Sequelize, MySQL, Docker, Digital Oceans, Nginx, Ubuntu, JWT, Oauth2.
         </Card.Text>
-        <Button href="https://github.com/Stepalom77/Best_buy_api_clone" variant="outline-primary">Github repository</Button>
-        <Button id='buttonRight' href="#" variant="outline-primary">Live Demo</Button>
+        <Button href="https://github.com/Stepalom77/Best_buy_api_clone" target="_blank" variant="outline-primary">Github repository</Button>
+        <Button id='buttonRight' href="#" target="_blank" variant="outline-primary">Live Demo</Button>
       </Card.Body>
     </Card>
             </Col>
@@ -62,8 +62,8 @@ const Projects: React.FC = () => {
         <Card.Text id='projectText'>
             All the tools I used: Typescript/NodeJS, Express, Mongoose, MongoDB, Heroku and Auth0.
         </Card.Text>
-        <Button href="https://github.com/Stepalom77/youtube_clone" variant="outline-primary">Github repository</Button>
-        <Button id='buttonRight' href="#" variant="outline-primary">Live Demo</Button>
+        <Button href="https://github.com/Stepalom77/youtube_clone" target="_blank" variant="outline-primary">Github repository</Button>
+        <Button id='buttonRight' href="#" target="_blank" variant="outline-primary">Live Demo</Button>
       </Card.Body>
     </Card>
             </Col>
@@ -79,8 +79,8 @@ const Projects: React.FC = () => {
         <Card.Text id='projectText'>
             All the tools I used: Python, Django, Postgres and Firebase.
         </Card.Text>
-        <Button href="#" variant="outline-primary">Github repository</Button>
-        <Button id='buttonRight' href="#" variant="outline-primary">Live Demo</Button>
+        <Button href="#" target="_blank" variant="outline-primary">Github repository</Button>
+        <Button id='buttonRight' href="#" target="_blank" variant="outline-primary">Live Demo</Button>
       </Card.Body>
     </Card>
             </Col>
