@@ -36,15 +36,15 @@ const Projects: React.FC = () => {
       <Card.Body>
         <Card.Title>Best Buy API</Card.Title>
         <Card.Text id='projectText'>
-            Building a clone of the Best Buy API with NodeJS, Express and Docker deployed in a droplet of Digital Oceans.
+            Building a clone of the Best Buy API with NodeJS, Express and Docker deployed in a Linux VM of Microsoft Azure.
             My purpose with this project was to perfect my skills with Devops tools, I wanted to know, how many tools I could
-            use to develop on API and in how many environment I could use Docker containers.
+            use to deploy an API and in how many environment I could use Docker containers.
         </Card.Text>
         <Card.Text id='projectText'>
-            All the tools I used: Javascript/NodeJS, Express, Sequelize, MySQL, Docker, Digital Oceans, Nginx, Ubuntu, JWT, Oauth2.
+            All the tools I used: Javascript/NodeJS, Express, Sequelize, MySQL, Docker, Microsoft Azure, Nginx, Ubuntu, JWT, Oauth2.
         </Card.Text>
         <Button href="https://github.com/Stepalom77/Best_buy_api_clone" target="_blank" variant="outline-primary">Github repository</Button>
-        <Button id='buttonRight' href="#" target="_blank" variant="outline-primary">Live Demo</Button>
+        <Button id='buttonRight' href="https://www.palomino-bestbuyclone-proyect.xyz/" target="_blank" variant="outline-primary">Live Demo</Button>
       </Card.Body>
     </Card>
             </Col>
