@@ -27,7 +27,7 @@ const Projects: React.FC = () => {
             All the tools I used: Javascript/NodeJS, Express, Sequelize, Postgres, Docker, Heroku, Heroku Postgres and JWT.
         </Card.Text>
         <Button href="https://github.com/Stepalom77/IMDB-Clone-API" target="_blank" variant="outline-primary">Github repository</Button>
-        <Button id='buttonRight' href="https://ste-imdb-clone.herokuapp.com/" target="_blank" variant="outline-primary">Live Demo</Button>
+        <Button id='buttonRight' href="https://ste-imdb-clone.herokuapp.com/api/v1/api-docs/" target="_blank" variant="outline-primary">Live Demo</Button>
       </Card.Body>
     </Card>
             </Col>
