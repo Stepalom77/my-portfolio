@@ -51,7 +51,7 @@ const Projects: React.FC = () => {
         </Row>
         <Row className="justify-content-md-around">
         <Col>
-        <Card id='cardBottom' style={{ width: '25rem', height: '17rem' }}>
+        {/*<Card id='cardBottom' style={{ width: '25rem', height: '17rem' }}>
       <Card.Body>
         <Card.Title>Youtube API</Card.Title>
         <Card.Text id='projectText'>
@@ -65,10 +65,10 @@ const Projects: React.FC = () => {
         <Button href="https://github.com/Stepalom77/youtube_clone" target="_blank" variant="outline-primary">Github repository</Button>
         <Button id='buttonRight' href="#" target="_blank" variant="outline-primary">Live Demo</Button>
       </Card.Body>
-    </Card>
+  </Card>*/}
             </Col>
             <Col>
-            <Card id='cardBottom' style={{ width: '25rem', height: '17rem' }}>
+    {/*<Card id='cardBottom' style={{ width: '25rem', height: '17rem' }}>
       <Card.Body>
         <Card.Title>Start Legal API</Card.Title>
         <Card.Text id='projectText'>
@@ -82,7 +82,7 @@ const Projects: React.FC = () => {
         <Button href="#" target="_blank" variant="outline-primary">Github repository</Button>
         <Button id='buttonRight' href="#" target="_blank" variant="outline-primary">Live Demo</Button>
       </Card.Body>
-    </Card>
+  </Card>*/}
             </Col>
         </Row>
     </Container>
