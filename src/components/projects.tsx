@@ -19,15 +19,15 @@ const Projects: React.FC = () => {
       <Card.Body>
         <Card.Title>IMDB API</Card.Title>
         <Card.Text id='projectText'>
-            Building a clone of the Internet Movie Database API with NodeJS, Express and SQL, deployed with Heroku.
-            My purpose with this project was to perfect my skills with Express, SQL and Sequelize by building a clone of the API
+            Building a clone of the Internet Movie Database API with NodeJS, Express and Docker deployed in a Linux VM of Google Cloud Services.
+            My purpose with this project was to learn how to use the VM of GCS and perfect my skills with Express, SQL and Sequelize by building a clone of the API
             of a webpage that I enjoy using.
         </Card.Text>
         <Card.Text id='projectText'>
-            All the tools I used: Javascript/NodeJS, Express, Sequelize, Postgres, Docker, Heroku, Heroku Postgres and JWT.
+            All the tools I used: Javascript/NodeJS, Express, Sequelize, Postgres, Docker, Google Cloud Services, Ubuntu, Nginx and JWT.
         </Card.Text>
         <Button href="https://github.com/Stepalom77/IMDB-Clone-API" target="_blank" variant="outline-primary">Github repository</Button>
-        <Button id='buttonRight' href="https://ste-imdb-clone.herokuapp.com/api/v1/api-docs/" target="_blank" variant="outline-primary">Live Demo</Button>
+        <Button id='buttonRight' href="https://www.imdb-api-clone.xyz/api/v1/api-docs/" target="_blank" variant="outline-primary">API Live Documentation</Button>
       </Card.Body>
     </Card>
             </Col>
