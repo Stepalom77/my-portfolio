@@ -41,7 +41,7 @@ const Contact: React.FC = () => {
         </Card.Link>
         <br/>
         <br/>
-        <Link to="/files/Curriculum_vitae_Stephano_Palomino.docx" target="_blank" download>
+        <Link to="/files/Stephano_Palomino_Curriculum_vitae.pdf" target="_blank" download>
             <Button variant="outline-primary">Download my CV</Button>
             </Link>
         
