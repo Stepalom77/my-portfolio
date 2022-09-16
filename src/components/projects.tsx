@@ -51,21 +51,24 @@ const Projects: React.FC = () => {
         </Row>
         <Row className="justify-content-md-around">
         <Col>
-        {/*<Card id='cardBottom' style={{ width: '25rem', height: '17rem' }}>
+        <Card id='cardBottom' style={{ width: '25rem', height: '21rem' }}>
       <Card.Body>
-        <Card.Title>Youtube API</Card.Title>
+        <Card.Title>Youtube Clone</Card.Title>
         <Card.Text id='projectText'>
-            Building a clone of the Youtube API with Typescript, Mongoose and MongoDB, deployed with Heroku.
+            Building a clone of the Youtube API with a simple Frontend to test the GET Requests.
             My purpose with this project was to perfect my skills with No SQL databases and Typescript by building a clone of the API
             of a webpage that I used everyday.
         </Card.Text>
         <Card.Text id='projectText'>
-            All the tools I used: Typescript/NodeJS, Express, Mongoose, MongoDB, Heroku and Auth0.
+            All the tools I used for the Backend: Typescript/NodeJS, Express, Mongoose, MongoDB, Railway and Auth0.
+            All the tools I used for the Frontend: Typescript/NodeJS, React, TailwindCSS, Axios, Render and Auth0.
         </Card.Text>
-        <Button href="https://github.com/Stepalom77/youtube_clone" target="_blank" variant="outline-primary">Github repository</Button>
-        <Button id='buttonRight' href="#" target="_blank" variant="outline-primary">Live Demo</Button>
+        <Button href="https://github.com/Stepalom77/youtube_clone" target="_blank" variant="outline-primary">Backend Github repository</Button>
+        <Button id='buttonRight' href="https://youtubeclone-production.up.railway.app/" target="_blank" variant="outline-primary">Live API</Button>
+        <Button id='buttonBackend' href="https://github.com/Stepalom77/youtube_clone_app" target="_blank" variant="outline-primary">Frontend Github repository</Button>
+        <Button id='buttonFrontend' href="https://youtube-clone-app.onrender.com/" target="_blank" variant="outline-primary">Live Frontend</Button>
       </Card.Body>
-  </Card>*/}
+  </Card>
             </Col>
             <Col>
     {/*<Card id='cardBottom' style={{ width: '25rem', height: '17rem' }}>

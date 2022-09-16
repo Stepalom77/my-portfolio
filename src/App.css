@@ -64,6 +64,15 @@ html {
     margin-left: 20px;
 }
 
+#buttonBackend {
+    margin-top: 10px;
+}
+
+#buttonFrontend {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
 #projectText {
     font-size: small;
 }
