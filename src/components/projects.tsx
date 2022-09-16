@@ -60,11 +60,11 @@ const Projects: React.FC = () => {
             of a webpage that I used everyday.
         </Card.Text>
         <Card.Text id='projectText'>
-            All the tools I used for the Backend: Typescript/NodeJS, Express, Mongoose, MongoDB, Railway and Auth0.
+            All the tools I used for the Backend: Typescript/NodeJS, Express, Mongoose, MongoDB, Railway, Postman and Auth0.
             All the tools I used for the Frontend: Typescript/NodeJS, React, TailwindCSS, Axios, Render and Auth0.
         </Card.Text>
         <Button href="https://github.com/Stepalom77/youtube_clone" target="_blank" variant="outline-primary">Backend Github repository</Button>
-        <Button id='buttonRight' href="https://youtubeclone-production.up.railway.app/" target="_blank" variant="outline-primary">Live API</Button>
+        <Button id='buttonRight' href="https://documenter.getpostman.com/view/17975789/2s7YfSdD9A" target="_blank" variant="outline-primary">API Documentation</Button>
         <Button id='buttonBackend' href="https://github.com/Stepalom77/youtube_clone_app" target="_blank" variant="outline-primary">Frontend Github repository</Button>
         <Button id='buttonFrontend' href="https://youtube-clone-app.onrender.com/" target="_blank" variant="outline-primary">Live Frontend</Button>
       </Card.Body>
