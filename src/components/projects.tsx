@@ -15,7 +15,7 @@ const Projects: React.FC = () => {
         </Row>
         <Row className="justify-content-md-around">
         <Col>
-        <Card style={{ width: '25rem', height: '19rem' }}>
+        <Card style={{ width: '27rem', height: '19rem' }}>
       <Card.Body>
         <Card.Title>IMDB API</Card.Title>
         <Card.Text id='projectText'>
@@ -32,7 +32,7 @@ const Projects: React.FC = () => {
     </Card>
             </Col>
             <Col>
-            <Card style={{ width: '25rem', height: '18rem' }}>
+            <Card style={{ width: '27rem', height: '18rem' }}>
       <Card.Body>
         <Card.Title>Best Buy API</Card.Title>
         <Card.Text id='projectText'>
@@ -51,7 +51,7 @@ const Projects: React.FC = () => {
         </Row>
         <Row className="justify-content-md-around">
         <Col>
-        <Card id='cardBottom' style={{ width: '25rem', height: '21rem' }}>
+        <Card id='cardBottom' style={{ width: '27rem', height: '22rem' }}>
       <Card.Body>
         <Card.Title>Youtube Clone</Card.Title>
         <Card.Text id='projectText'>
