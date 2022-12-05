@@ -7,15 +7,15 @@ import Button from 'react-bootstrap/Button';
 
 const Projects: React.FC = () => {
   return (
-    <Container className="justify-content-md-around" fluid="true" id='projects'>
+    <Container fluid id='projects'>
         <Row className="justify-content-md-center">
-            <Col xs={6}>
+            <Col className='text-center' xs={6}>
             <p id='projectTitle'>All my Project were constructed to test and learn different frameworks and tools.</p>
             </Col>
         </Row>
-        <Row className="justify-content-md-around">
+        <Row >
         <Col>
-    <Card id='cardBottom' style={{ width: '25rem', height: '17rem' }}>
+    <Card  style={{ width: '25rem', height: '19rem' }}>
       <Card.Body>
         <Card.Title>Start Legal </Card.Title>
         <Card.Text id='projectText'>
@@ -24,7 +24,7 @@ const Projects: React.FC = () => {
             to add more features and improve the product. P.S.: The repositories are private but I can show it if needed.
         </Card.Text>
         <Card.Text id='projectText'>
-            All the tools I am currently using: NestJS, Angular, Typescript, SQL, Sendgrind, Railway and Vercel.
+            All the tools I am currently using: NestJS, Angular, Typescript, Bootstrap, SQL, Sendgrind, Railway and Vercel.
         </Card.Text>
         <Button id='buttonRight' href="https://start-legal-32gpsjpw6-stepalom77.vercel.app/" target="_blank" variant="outline-primary">Live Demo</Button>
       </Card.Body>

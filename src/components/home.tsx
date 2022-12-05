@@ -25,7 +25,7 @@ const HomeApp:  React.FC = () => {
       <Row className="justify-content-md-center">
         <Col xs lg="2"></Col>
         <Col md="auto">
-          <p className='align-content-center justify-content-md-center' id='myName'>Backend Developer</p>
+          <p className='align-content-center justify-content-md-center' id='myName'>Fullstack Developer</p>
           </Col>
         <Col xs lg="2"></Col>
       </Row>

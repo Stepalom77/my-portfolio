@@ -16,11 +16,11 @@ const About: React.FC = () => {
         <Col xs lg="2"></Col>
       </Row>
       <Row className="justify-content-md-around">
-        <Col xs={5}><p id='aboutText'>I am a Lawyer, Legaltech entrepreneur and a Backend Developer with experience in developing legaltech products and building backend infrastructure.
+        <Col xs={5}><p id='aboutText'>I am a Lawyer, Legaltech entrepreneur and a FullStack Developer with experience in developing legaltech products and building web applications.
           I love working on, investigating and developing solutions to make legal services much more human centric and more efficient.
           I have been able to adapt and learn new skills, even those that were out of my comfort zone, so I could get better as a Legaltech Entrepreneur,
-          even as far as to go from been a Lawyer to learning how to code and becoming a Backend Developer. I love learning new programming languages, frameworks and tools, and 
-          working on backend and cloud infrastructures. I also enjoy discussing new startups ideas and ways to solve problems.
+          even as far as to go from been a Lawyer to learning how to code and becoming a Fullstack Developer. I love learning new programming languages, frameworks and tools, and 
+          working on backend and cloud infrastructures. I also enjoy discussing new startups ideas and ways to solve problems. 
            </p></Col>
         <Col xs={4}>
         <Image id='myImage' src="/images/IMG_5344.jpg" alt="AnotherMe" />
