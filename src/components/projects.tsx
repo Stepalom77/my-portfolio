@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
         <Card.Text id='projectText'>
             All the tools I am currently using: NestJS, Angular, Typescript, Bootstrap, SQL, Sendgrind, Railway and Vercel.
         </Card.Text>
-        <Button id='buttonRight' href="https://start-legal-32gpsjpw6-stepalom77.vercel.app/" target="_blank" variant="outline-primary">Live Demo</Button>
+        <Button id='buttonRight' href="https://startlegalapp-production.up.railway.app/" target="_blank" variant="outline-primary">Live Demo</Button>
       </Card.Body>
   </Card>
             </Col>
