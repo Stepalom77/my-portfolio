@@ -15,6 +15,22 @@ const Projects: React.FC = () => {
         </Row>
         <Row className="justify-content-md-around">
         <Col>
+    <Card id='cardBottom' style={{ width: '25rem', height: '17rem' }}>
+      <Card.Body>
+        <Card.Title>Start Legal </Card.Title>
+        <Card.Text id='projectText'>
+            The new Web App of my Legaltech Startup, Start Legal, the project is still underway but you can watch the current state, I am using Angular and NestJS. 
+            The purpose of this project is to rebuilt the current Web App of my Start Legal with a much modern tech stack, which will make it easier 
+            to add more features and improve the product. P.S.: The repositories are private but I can show it if needed.
+        </Card.Text>
+        <Card.Text id='projectText'>
+            All the tools I am currently using: NestJS, Angular, Typescript, SQL, Sendgrind, Railway and Vercel.
+        </Card.Text>
+        <Button id='buttonRight' href="https://start-legal-32gpsjpw6-stepalom77.vercel.app/" target="_blank" variant="outline-primary">Live Demo</Button>
+      </Card.Body>
+  </Card>
+            </Col>
+        <Col>
         <Card style={{ width: '27rem', height: '19rem' }}>
       <Card.Body>
         <Card.Title>IMDB API</Card.Title>
@@ -69,23 +85,6 @@ const Projects: React.FC = () => {
         <Button id='buttonFrontend' href="https://youtube-clone-app.onrender.com/" target="_blank" variant="outline-primary">Live Frontend</Button>
       </Card.Body>
   </Card>
-            </Col>
-            <Col>
-    {/*<Card id='cardBottom' style={{ width: '25rem', height: '17rem' }}>
-      <Card.Body>
-        <Card.Title>Start Legal API</Card.Title>
-        <Card.Text id='projectText'>
-            Rebuilding the API of my Legaltech startup, Start Legal, with Python and SQL. The purpose of this project
-            was to rebuilt the API of my startup to test if it's functionally would be better with these tools instead 
-            of the ones we are currently using. I also wanted to learn how to use Python and Django.
-        </Card.Text>
-        <Card.Text id='projectText'>
-            All the tools I used: Python, Django, Postgres and Firebase.
-        </Card.Text>
-        <Button href="#" target="_blank" variant="outline-primary">Github repository</Button>
-        <Button id='buttonRight' href="#" target="_blank" variant="outline-primary">Live Demo</Button>
-      </Card.Body>
-  </Card>*/}
             </Col>
         </Row>
     </Container>
